@@ -1,0 +1,56 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    
+    .container {
+        max-width: 990px;
+    }
+    .nft-title {
+        font-size: 44px;
+    }
+    .mym-lable {
+        font-size: 16px;
+        text-align: center;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 768px) {
+.nft-title {
+	font-size: 44px;
+	padding: 0px 30px;
+}
+.section-title .nft-subtitle p {
+	width: 70%;
+}
+.nft-hero-logos-container {
+	top: 5px;
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.nft-title {
+	font-size: 44px;
+	padding: 0px 0px;
+}
+ 
+}
